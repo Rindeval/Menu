@@ -1,0 +1,113 @@
+.daddy {
+    position: relative;
+}
+
+.block {
+    width: 170px;
+    height: 230px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    margin-top: 350px;
+    cursor: pointer;
+}
+
+.block:hover {
+    border: 2px yellow;
+    opacity: 1;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    -webkit-text-stroke: 1px red;
+    text-shadow: -5px -2px blue, -4px -1px #fff;
+    margin-left: 650px;
+    font-size: 60px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+h2:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.iron-man {
+    margin-left: 250px;
+    
+}
+
+.spider-man {
+    margin-left: 500px;
+}
+
+.star-lord {
+    margin-left: 750px;
+}
+
+.doctor-strange {
+    margin-left: 1000px;
+}
+
+.dead-pool {
+    margin-left: 1250px;
+}
+
+.hulk {
+    margin-left: 1500px;
+    
+}
+
+body {
+    background-image: url(img/FON.jpg);
+} 
+
+.im {
+    color: yellow;
+    text-shadow: -2px -2px red;
+   
+}
+
+
+.sm {
+     color: red;
+     text-shadow: -2px -2px blue;
+    
+}
+
+.sl {
+    color:red;
+    text-shadow: -2px -2px yellow;
+}
+
+
+.ds {
+    color: blue;
+    text-shadow: -2px -2px green;
+}
+
+.dp {
+    color: red;
+    text-shadow: -2px -2px white;
+}
+
+
+.h {
+    color: darkgreen;
+    text-shadow: -2px -2px brown;
+}
+
+
+img {   
+    max-width: 170px;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
